@@ -7,7 +7,7 @@ import tensorflow.estimator as estimator
 import logging
 import os
 
-from models import MNISTModel, Mnist
+from mnist_model import MNISTModel, Mnist
 
 logging.getLogger().setLevel(logging.INFO)
 
